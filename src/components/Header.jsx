@@ -2,11 +2,11 @@ import React, { useMemo, useState } from 'react';
 import { MdMenu } from 'react-icons/md';
 
 function Header() {
-  const [id, setId] = useState('hero');
+  const [id, setId] = useState('home');
   const [visible, setVisible] = useState(false);
 
   const menuItem = [
-    { name: 'HOME', id: 'hero' },
+    { name: 'HOME', id: 'home' },
     { name: 'ABOUT', id: 'about' },
     { name: 'PROJECTS', id: 'projects' },
     { name: 'CONTACT', id: 'contact' },
@@ -41,7 +41,7 @@ function Header() {
   }, [id]);
 
   return (
-    <header className="fixed top-0 w-full bg-dark mt-16 z-50">
+    <header className="fixed top-0 w-full bg-dark bg-opacity-90 mt-16 z-50">
       <nav className="relative container mx-auto px-4 py-3 flex justify-between items-center">
         <div className="flex flex-wrap text-[32px] md:text-[64px] font-sans text-white">
           Sachith Abywardhana

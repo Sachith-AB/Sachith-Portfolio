@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Hero from './sections/Hero';
+import Home from './sections/Home';
 import About from './sections/About';
 import Projects from './sections/Project'
 import Contact from './sections/Contact'
@@ -11,7 +11,7 @@ export default function App() {
     <div>
       <Header/>
       <main>
-        <Hero/>
+        <Home/>
         <About/>
         <Projects/>
         <Contact/>
