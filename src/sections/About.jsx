@@ -4,7 +4,7 @@ function About() {
     return (
         <section 
             id='about' 
-            className="bg-white py-20">
+            className="bg-dark py-20">
             <div className="container mx-auto text-center">
                 <h2 className="text-3xl font-bold text-gray-800 mb-6">About Me</h2>
                 <p className="text-lg text-gray-600">

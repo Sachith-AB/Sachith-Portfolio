@@ -9,7 +9,7 @@ function Projects() {
 
     return (
         <section 
-            className="bg-gray-50 py-20"
+            className="bg-dark py-20"
             id='projects'
         >
         <div className="container mx-auto text-center">
