@@ -29,7 +29,7 @@ function Home() {
                         <h1 className='text-[32px] md:text-[70px] text-white'>I'm Sachith Avintha Abeywardhana</h1>
                     </div>
                 </div>
-                <div className='w-96 h-96 rounded-full overflow-hidden'>
+                <div className='h-80 w-80 md:w-96 md:h-96 rounded-full overflow-hidden'>
                     <img src={user} alt="User Profile" />
                 </div>
             </div>
