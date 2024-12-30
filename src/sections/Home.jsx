@@ -1,19 +1,40 @@
 import React from 'react';
+import user from '../../assets/userImage.jpg';
 
-function Hero() {
+function Home() {
     return (
         <section
             id="home"
-            className="bg-dark min-h-screen flex items-center justify-center text-center"
+            className="bg-dark min-h-screen flex items-center justify-center"
         >
-            <div className="container mx-auto px-4">
-                <h1 className="text-5xl font-bold text-blue-600">Welcome to My Portfolio</h1>
-                <p className="text-gray-600 mt-4 text-lg">
-                I'm Sachith, a developer passionate about building web applications.
-                </p>
+            <div className='flex flex-col md:flex-row gap-5 items-center justify-center'>
+                <div className='flex flex-row w-full md:w-1/2 gap-24 mt-16'>
+                    <div className='flex flex-col gap-6 items-center'>
+                        <h1 className='text-[70px] text-white border-b-2'>01</h1>
+                        <div className='h-[100px] md:h-[200px] w-[1px] bg-white'></div>
+
+                        {/* Purple bar with centered "HOME" text */}
+                        <div className='relative h-[90px] w-[15px] bg-accent-purple'>
+                            <h2 
+                                className='absolute inset-0 inset-x-3 flex items-center justify-center text-white text-[20px]'
+                                style={{ transform: 'rotate(270deg)' }}
+                            >
+                                HOME
+                            </h2>
+                        </div>
+                    </div>
+
+                    <div className='flex flex-col flex-wrap justify-start'>
+                        <h1 className='text-[32px] md:text-[70px] text-white'>Hello,</h1>
+                        <h1 className='text-[32px] md:text-[70px] text-white'>I'm Sachith Avintha Abeywardhana</h1>
+                    </div>
+                </div>
+                <div className='w-96 h-96 rounded-full overflow-hidden'>
+                    <img src={user} alt="User Profile" />
+                </div>
             </div>
         </section>
     );
 }
 
-export default Hero;
+export default Home;

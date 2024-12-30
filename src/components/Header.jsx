@@ -43,9 +43,9 @@ function Header() {
   return (
     <header className="fixed top-0 w-full bg-dark bg-opacity-90 mt-16 z-50">
       <nav className="relative container mx-auto px-4 py-3 flex justify-between items-center">
-        <div className="flex flex-wrap text-[32px] md:text-[64px] font-sans text-white">
+        {/* <div className="flex flex-wrap text-[32px] md:text-[64px] font-sans text-white">
           Sachith Abywardhana
-        </div>
+        </div> */}
         {/* Desktop Menu */}
         <ul className="hidden md:flex space-x-6">{menu}</ul>
         
