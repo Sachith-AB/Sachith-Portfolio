@@ -27,6 +27,12 @@ function Home() {
                     <div className='flex flex-col flex-wrap justify-start'>
                         <h1 className='text-[32px] md:text-[70px] text-white'>Hello,</h1>
                         <h1 className='text-[32px] md:text-[70px] text-white'>I'm Sachith Avintha Abeywardhana</h1>
+                        <h2 className='text-[20px] md:text-[24px] text-slate-100'>
+                            Computer Science Undergraduate
+                        </h2>
+                        <h2 className='text-[20px] md:text-[24px] text-slate-100'>
+                            Web Dev | Mobile Dev | AI Enthusiast
+                        </h2>
                     </div>
                 </div>
                 <div className='h-80 w-80 md:w-96 md:h-96 rounded-full overflow-hidden'>
