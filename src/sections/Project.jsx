@@ -8,7 +8,10 @@ function Projects() {
     ];
 
     return (
-        <section className="bg-gray-50 py-20">
+        <section 
+            className="bg-gray-50 py-20"
+            id='projects'
+        >
         <div className="container mx-auto text-center">
             <h2 className="text-3xl font-bold text-gray-800 mb-6">My Projects</h2>
             <div className="grid gap-6 md:grid-cols-2">
