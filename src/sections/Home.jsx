@@ -24,7 +24,7 @@ function Home() {
                         </div>
                     </div>
 
-                    <div className='flex flex-col flex-wrap justify-start'>
+                    <div className='flex flex-col flex-wrap justify-start mt-3'>
                         <h1 className='text-[32px] md:text-[70px] text-white'>Hello,</h1>
                         <h1 className='text-[32px] md:text-[70px] text-white'>I'm Sachith Avintha Abeywardhana</h1>
                         <h2 className='text-[20px] md:text-[24px] text-slate-100'>
