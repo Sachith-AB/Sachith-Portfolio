@@ -17,7 +17,7 @@ export default function Hero() {
                 <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-white via-purple-400 to-pink-400 bg-clip-text text-transparent animate-pulse">
                     
                 </h1>
-                <h2 className="text-4xl md:text-5xl mb-8 text-purple-300">
+                <h2 className="text-4xl md:text-5xl mb-8 text-purple-300 animate-pulse">
                     Full Stack Developer | AI Enthusiast
                 </h2>
                 <p className="text-xl md:text-2xl mb-12 text-gray-300 max-w-2xl mx-auto leading-relaxed">
