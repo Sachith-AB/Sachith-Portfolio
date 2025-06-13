@@ -3,6 +3,7 @@ import { FaGithub, FaLinkedin, FaCode, FaServer, FaDatabase, FaGlobe, FaStar, Fa
 import { MdEmail, MdPhone } from 'react-icons/md';
 import { FiExternalLink, FiMenu, FiX } from 'react-icons/fi';
 import { GiBrain } from 'react-icons/gi';
+import user from '../../../assets/userImage.jpg'
 
 const Portfolio = () => {
     const [activeSection, setActiveSection] = useState('home');
@@ -94,7 +95,7 @@ const Portfolio = () => {
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-between items-center h-16">
                     <div className="text-2xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
-                    Portfolio
+                        Portfolio
                     </div>
                     
                     {/* Desktop Navigation */}
@@ -144,10 +145,10 @@ const Portfolio = () => {
             <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-r from-purple-900/20 to-pink-900/20"></div>
                 <div className="relative z-10 text-center max-w-4xl mx-auto px-4">
-                    <div className="mb-8 animate-pulse">
+                    <div className="mb-8">
                         <div className="w-32 h-32 mx-auto rounded-full bg-gradient-to-r from-purple-500 to-pink-500 p-1 mb-6">
-                            <div className="w-full h-full rounded-full bg-black flex items-center justify-center">
-                                <FaCode className="w-16 h-16 text-purple-400" />
+                            <div className="w-full h-full rounded-full bg-black flex items-center justify-center overflow-hidden">
+                                <img src={user} className='h-full w-full object-cover' alt="" />
                             </div>
                         </div>
                     </div>
