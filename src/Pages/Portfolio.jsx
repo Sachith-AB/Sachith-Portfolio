@@ -1,9 +1,4 @@
-import React, { useState, useEffect } from 'react';
-import { FaGithub, FaLinkedin, FaCode, FaServer, FaDatabase, FaGlobe, FaStar, FaArrowRight, FaDownload } from 'react-icons/fa';
-import { MdEmail, MdPhone } from 'react-icons/md';
-import { FiExternalLink, FiMenu, FiX } from 'react-icons/fi';
-import { GiBrain } from 'react-icons/gi';
-import user from '../../../assets/userImage.jpg'
+import { useState, useEffect } from 'react';
 import NavBar from './components/NavBar';
 import Hero from './components/Hero';
 import About from './components/About';

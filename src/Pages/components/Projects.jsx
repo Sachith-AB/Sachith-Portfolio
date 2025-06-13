@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { FaGithub, FaStar } from 'react-icons/fa';
 import { FiExternalLink } from 'react-icons/fi';
 

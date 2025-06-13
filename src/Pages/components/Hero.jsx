@@ -1,4 +1,4 @@
-import user from '../../../../assets/userImage.jpg'
+import user from '../../../assets/userImage.jpg'
 import { FaArrowRight, FaDownload } from 'react-icons/fa';
 
 export default function Hero() {
