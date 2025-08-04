@@ -35,7 +35,6 @@ export default function Education() {
                     className="w-full md:w-1/2 mt-8 flex flex-col gap-2 items-start justify-start md:items-center md:justify-center"
                     variants={leftVariants}
                 >
-                    <h1 className="text-4xl text-white">Synapticll</h1>
                     <h1 className="text-xl text-gray-400">2024 - Present</h1>
                 </motion.div>
 
@@ -43,12 +42,40 @@ export default function Education() {
                     className="w-full md:w-1/2 mt-8 flex flex-col gap-2 items-start justify-start md:justify-center"
                     variants={rightVariants}
                 >
-                    <h1 className="text-xl font-semibold text-white items-start">Frontend Developer</h1>
+                    <h1 className="text-2xl text-white">University of Colombo School of Computing</h1>
+                    <h1 className="text-lg font-semibold text-white items-start">Bachelor of Science in Computer Science</h1>
                     <h1 className="text-xl text-gray-400">
-                        I worked as a Frontend Developer in an organization focused on community-driven projects 
-                        and open-source research, where I developed and integrated the frontend of a web application 
-                        that allows veterinarians to register their profiles and hospitals, as well as manage their 
-                        appointments efficiently.
+                        Current GPA: 3.01/4.00
+                    </h1>
+                </motion.div>
+            </motion.div>
+
+            <motion.div
+                className='flex flex-col md:flex-row w-full mt-8'
+                variants={containerVariants}
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ amount: 0.3 }}
+            >
+                <motion.div
+                    className="w-full md:w-1/2 mt-8 flex flex-col gap-2 items-start justify-start md:items-center md:justify-center"
+                    variants={leftVariants}
+                >
+                    <h1 className="text-xl text-gray-400">2013 - 2021</h1>
+                </motion.div>
+
+                <motion.div
+                    className="w-full md:w-1/2 mt-8 flex flex-col gap-2 items-start justify-start md:justify-center"
+                    variants={rightVariants}
+                >
+                    <h1 className="text-2xl text-white">Telijjawila Central College</h1>
+                    <h1 className="text-lg font-semibold text-white items-start">G.C.E. Advanced Level</h1>
+                    <h1 className="text-xl text-gray-400">
+                        Combined Maths: B, Chemistry: A, Physics: A
+                    </h1>
+                    <h1 className="text-lg font-semibold text-white items-start">G.C.E. Ordinary Level</h1>
+                    <h1 className="text-xl text-gray-400">
+                        A: 8 , C: 1
                     </h1>
                 </motion.div>
             </motion.div>
