@@ -4,13 +4,13 @@ import Sachith_Abeywardhana from '../../assets/Sachith_Abeywardhana.pdf'
 
 export default function Home() {
     return (
-        <div className="flex flex-col gap-6 md:flex-row justify-between w-full">
-            <div className="flex flex-col gap-4 md:justify-center items-center w-full md:w-1/2">
+        <div className="flex flex-col gap-6 md:flex-row justify-between w-full py-24">
+            <div className="flex flex-col gap-4 md:justify-center sm:items-start items-center w-full md:w-1/2">
                 <motion.h1 
                     initial={{ x: -100, opacity: 0 }}
                     animate={{ x: 0, opacity: 1 }}
                     transition={{ duration: 0.8 }}
-                    className='text-white text-4xl md:text-6xl font-[200]'
+                    className='text-white text-4xl md:text-5xl font-[200]'
                 >
                     Sachith Abeywardhana
                 </motion.h1>
