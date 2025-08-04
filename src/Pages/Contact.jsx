@@ -65,9 +65,7 @@ export default function Contact() {
                 viewport={{ amount: 0.3 }}
                 transition={{ duration: 0.6, delay: 0.9 }}
             >
-                <p className="text-black mb-2">Social Media Container should appear below:</p>
                 <SocialMediaContainer show={true} />
-                <p className="text-black mt-2">Social Media Container should appear above</p>
             </motion.div>
         </motion.div>
     )
