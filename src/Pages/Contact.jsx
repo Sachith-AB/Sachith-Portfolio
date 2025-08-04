@@ -53,18 +53,21 @@ export default function Contact() {
                     viewport={{ amount: 0.3 }}
                     transition={{ duration: 0.5, delay: 0.7 }}
                 >
-                    sachithavintha35@gmial.com
+                    sachithavintha35@gmail.com
                 </motion.h2>
             </motion.div>
             
+            {/* Debug: Add a visible border and background to see if container is there */}
             <motion.div 
-                className="mt-5"
+                className="mt-5 text-white flex items-center"
                 initial={{ y: 50, opacity: 0 }}
                 whileInView={{ y: 0, opacity: 1 }}
                 viewport={{ amount: 0.3 }}
                 transition={{ duration: 0.6, delay: 0.9 }}
             >
-                <SocialMediaContainer show={true}/>
+                <p className="text-black mb-2">Social Media Container should appear below:</p>
+                <SocialMediaContainer show={true} />
+                <p className="text-black mt-2">Social Media Container should appear above</p>
             </motion.div>
         </motion.div>
     )
