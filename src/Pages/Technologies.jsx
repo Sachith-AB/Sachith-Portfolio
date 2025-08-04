@@ -30,12 +30,12 @@ export default function Technologies() {
     ))
 
     return (
-        <>
+        <div className='py-20'>
             <div className='text-4xl items-center justify-center flex gap-1'>
                 <h1 className='text-white'>Technologies.</h1>
             </div>
             <motion.div 
-                className='py-8 w-full justify-center flex items-center gap-4'
+                className='py-12 w-full justify-center flex flex-wrap items-center gap-4'
                 animate={{
                     x: [0, -5, 5, 0],
                     transition: {
@@ -47,6 +47,6 @@ export default function Technologies() {
             >
                 {iconContainer}
             </motion.div>
-        </>
+        </div>
     )
 }
