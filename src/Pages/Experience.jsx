@@ -32,10 +32,16 @@ export default function Experience() {
 
     return (
         <div className='py-8'>
-            {/* Static Heading (no motion) */}
-            <div className='text-4xl items-center justify-center flex gap-1'>
+            {/* Animated Heading */}
+            <motion.div 
+                className='text-4xl items-center justify-center flex gap-1'
+                initial={{ y: -30, opacity: 0 }}
+                whileInView={{ y: 0, opacity: 1 }}
+                viewport={{ amount: 0.3 }}
+                transition={{ duration: 0.6 }}
+            >
                 <h1 className='text-white'>Experience.</h1>
-            </div>
+            </motion.div>
 
             {/* Animated Content */}
             <motion.div

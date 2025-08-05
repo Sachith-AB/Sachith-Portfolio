@@ -25,10 +25,16 @@ export default function About() {
             whileInView="visible"
             viewport={{ amount: 0.3 }}
         >
-            <div className='text-4xl items-center justify-center flex gap-1'>
+            <motion.div 
+                className='text-4xl items-center justify-center flex gap-1'
+                initial={{ y: -30, opacity: 0 }}
+                whileInView={{ y: 0, opacity: 1 }}
+                viewport={{ amount: 0.3 }}
+                transition={{ duration: 0.6 }}
+            >
                 <h1 className='text-white'>About</h1>
                 <h1 className='text-gray-400'>Me</h1>
-            </div>
+            </motion.div>
             <div className="flex flex-col md:flex-row justify-between py-5">
                 <motion.div
                     variants={leftVariants}

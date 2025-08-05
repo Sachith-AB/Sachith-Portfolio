@@ -12,10 +12,10 @@ export default function Contact() {
         >
             <motion.div 
                 className='text-4xl items-center justify-center flex gap-1'
-                initial={{ y: 50, opacity: 0 }}
+                initial={{ y: -30, opacity: 0 }}
                 whileInView={{ y: 0, opacity: 1 }}
-                viewport={{ amount: 0.3, once: false }}
-                transition={{ duration: 0.6, delay: 0.1 }}
+                viewport={{ amount: 0.3 }}
+                transition={{ duration: 0.6 }}
             >
                 <h1 className='text-white'>Get in</h1>
                 <h1 className='text-gray-400'>Touch</h1>
@@ -35,7 +35,7 @@ export default function Contact() {
                     viewport={{ amount: 0.3, once: false }}
                     transition={{ duration: 0.5, delay: 0.5 }}
                 >
-                    Weliwa Junction, Morawala
+                    Weliwa Junction, Morawaka
                 </motion.h2>
                 <motion.h2 
                     className='text-gray-300 text-lg'
