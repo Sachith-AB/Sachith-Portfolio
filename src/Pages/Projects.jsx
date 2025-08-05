@@ -1,12 +1,11 @@
-import React from 'react'
 import { motion } from 'framer-motion'
 import ProjectCard from './components/ProjectCard'
+import about from '../../assets/About.jpg'
 
-// Sample project data - replace with your actual projects
 const projects = [
     {
         id: 1,
-        image: '/api/placeholder/400/300', // Replace with your project image path
+        image: about, 
         name: 'E-Commerce Web App',
         description: 'A full-stack e-commerce application with user authentication, product management, shopping cart functionality, and payment integration.',
         techStack: ['React', 'Node.js', 'MongoDB', 'Express', 'Stripe'],
@@ -16,7 +15,7 @@ const projects = [
     },
     {
         id: 2,
-        image: '/api/placeholder/400/300', // Replace with your project image path
+        image: about, 
         name: 'Task Management App',
         description: 'A productivity app for managing tasks and projects with real-time collaboration features and intuitive drag-and-drop interface.',
         techStack: ['React', 'Firebase', 'Material-UI', 'Redux'],
@@ -26,7 +25,7 @@ const projects = [
     },
     {
         id: 3,
-        image: '/api/placeholder/400/300', // Replace with your project image path
+        image: about, 
         name: 'Weather Dashboard',
         description: 'A responsive weather application that provides current weather conditions, forecasts, and weather maps using external APIs.',
         techStack: ['JavaScript', 'HTML', 'CSS', 'OpenWeather API'],
