@@ -7,7 +7,7 @@ const icons = [
     'devicon-dotnetcore-plain',
     'devicon-spring-plain',
     'devicon-java-plain',
-    'devicon-python-plain',
+    'devicon-javascript-plain',
 ]
 
 export default function Technologies() {
