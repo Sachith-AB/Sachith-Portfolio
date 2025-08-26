@@ -1,39 +1,54 @@
 import { motion } from 'framer-motion'
 import ProjectCard from './components/ProjectCard'
 import about from '../../assets/About.jpg'
+import job from '../../assets/jobpilot.png';
+import music from '../../assets/music.jpg';
+import travel from '../../assets/travel.png';
+import food from '../../assets/food.png';
 
 const projects = [
     {
         id: 1,
-        image: about, 
-        name: 'E-Commerce Web App',
-        description: 'A full-stack e-commerce application with user authentication, product management, shopping cart functionality, and payment integration.',
-        techStack: ['React', 'Node.js', 'MongoDB', 'Express', 'Stripe'],
-        githubLink: 'https://github.com/yourusername/ecommerce-app',
-        demoLink: 'https://your-ecommerce-demo.com',
+        image: travel,
+        name: 'Travel.lk - Travel Planning App',
+        description: 'Developed a web application with AI-powered trip creation enabling users to plan trips, find and request guides, rent vehicles with/without drivers, and book hotels. Built as an all-in-one travel solution with integrated booking and communication features. (3rd year group project)',
+        techStack: ['React Js', 'SpringBoot (Java)', 'GroqAI', 'Python', 'PostgreSQL', 'Firebase'],
+        githubLink: 'https://github.com/Sameemadhu16/travel_frontend',
+        demoLink: null,
         videoDemo: null
     },
     {
         id: 2,
-        image: about, 
-        name: 'Task Management App',
-        description: 'A productivity app for managing tasks and projects with real-time collaboration features and intuitive drag-and-drop interface.',
-        techStack: ['React', 'Firebase', 'Material-UI', 'Redux'],
-        githubLink: 'https://github.com/yourusername/task-manager',
+        image: music,
+        name: 'Musicia - Music Event Management & Ticket Selling Platform',
+        description: 'A comprehensive event management system allowing music event organizers to create, customize, and publish events with venue selection, date/time scheduling, multiple ticket types, restrictions, performer bookings, stage and sound equipment coordination, and integrated ticket sales platform for attendees. (2nd year group project)',
+        techStack: ['HTML', 'CSS', 'JavaScript', 'PHP', 'MVC'],
+        githubLink: 'https://github.com/Sachith-AB/Music-Event-Management-System',
         demoLink: null,
-        videoDemo: 'https://youtube.com/watch?v=your-demo-video'
+        videoDemo: null
     },
     {
         id: 3,
-        image: about, 
-        name: 'Weather Dashboard',
-        description: 'A responsive weather application that provides current weather conditions, forecasts, and weather maps using external APIs.',
-        techStack: ['JavaScript', 'HTML', 'CSS', 'OpenWeather API'],
-        githubLink: 'https://github.com/yourusername/weather-dashboard',
-        demoLink: 'https://your-weather-app.com',
+        image: job,
+        name: 'JobListings - Job Finding and Posting Platform',
+        description: 'A job marketplace platform with employer job postings (part-time/full-time/contract) and job seeker tools including job search, saved listings, and chat with poster. Implemented secure authentication, role-based access, and responsive design for cross-device accessibility.',
+        techStack: ['React', 'Express', 'NodeJs', 'MongoDB'],
+        githubLink: null,
+        demoLink: null,
+        videoDemo: 'https://youtu.be/1r-b91Brt4A?si=sXCsTd7ulGTCU0hh'
+    },
+    {
+        id: 4,
+        image: food,
+        name: 'Food Ordering System',
+        description: 'Enhanced a complete food ordering platform with restaurant admin panel for menu management, order tracking, and customer app for browsing, ordering, and real-time order tracking. (Self-learning project)',
+        techStack: ['Flutter', 'Firebase'],
+        githubLink: 'https://github.com/Sachith-AB/Food-Store',
+        demoLink: null,
         videoDemo: null
     }
 ];
+
 
 export default function Projects() {
     return (
