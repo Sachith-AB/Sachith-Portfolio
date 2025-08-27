@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import ProjectCard from './components/ProjectCard'
-import job from '../../assets/jobpilot.png';
+import job from '../../assets/Jobpilot.png';
 import music from '../../assets/music.jpg';
 import travel from '../../assets/travel.png';
 import food from '../../assets/food.png';
