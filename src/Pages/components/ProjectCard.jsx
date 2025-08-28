@@ -12,7 +12,7 @@ export default function ProjectCard({
 }) {
     return (
         <motion.div 
-            className='bg-gray-900 rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 max-w-md'
+            className='bg-gray-900 rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 max-w-md h-[600px] flex flex-col'
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ amount: 0.3 }}
@@ -20,7 +20,7 @@ export default function ProjectCard({
             whileHover={{ y: -5 }}
         >
             {/* Project Image */}
-            <div className='relative overflow-hidden h-48'>
+            <div className='relative overflow-hidden h-48 bg-white'>
                 <img 
                     src={image} 
                     alt={name} 
@@ -30,12 +30,14 @@ export default function ProjectCard({
             </div>
 
             {/* Project Content */}
-            <div className='p-6'>
+            <div className='p-6 flex flex-col flex-grow'>
                 {/* Project Name */}
                 <h3 className='text-xl font-bold text-white mb-3'>{name}</h3>
                 
                 {/* Project Description */}
-                <p className='text-gray-300 text-sm mb-4 leading-relaxed'>{description}</p>
+                <div className='flex-grow overflow-y-auto mb-4'>
+                    <p className='text-gray-300 text-sm leading-relaxed'>{description}</p>
+                </div>
                 
                 {/* Tech Stack */}
                 <div className='mb-4'>
@@ -53,7 +55,7 @@ export default function ProjectCard({
                 </div>
 
                 {/* Action Links */}
-                <div className='flex gap-3 mt-4'>
+                <div className='flex gap-3 mt-auto'>
                     {/* GitHub Link */}
                     {githubLink && (
                         <motion.a

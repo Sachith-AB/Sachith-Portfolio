@@ -1,11 +1,22 @@
 import { motion } from 'framer-motion'
 import ProjectCard from './components/ProjectCard'
 import job from '../../assets/Jobpilot.png';
+import mybawbaw from '../../assets/mybawbaw.png';
 import music from '../../assets/music.jpg';
 import travel from '../../assets/travel.png';
 import food from '../../assets/food.png';
 
 const projects = [
+    {
+        id: 0,
+        image: mybawbaw, // You can change to a specific image for this project
+        name: 'mybawbaw - Veterinary Appointment System',
+        description: 'As a Frontend Developer at mybawbaw, I implemented the frontend components of a web application that enables veterinarians to register their profiles and hospitals while efficiently managing appointments. Handled web and mobile application development for multiple client projects. Connected .NET backend services with React-based frontend applications to ensure seamless data flow and enhanced user experience.',
+        techStack: ['React', 'JavaScript', '.Net', 'PostgreSQL', 'Firebase'],
+        githubLink: null,
+        demoLink: null,
+        videoDemo: null
+    },
     {
         id: 1,
         image: travel,
@@ -78,7 +89,7 @@ export default function Projects() {
             >
                 {projects.map((project, index) => (
                     <motion.div
-                        key={project.id}
+                        key={project.id + '-' + index}
                         initial={{ opacity: 0, y: 50 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ amount: 0.3 }}
@@ -97,5 +108,5 @@ export default function Projects() {
                 ))}
             </motion.div>
         </motion.div>
-    )
+    );
 }

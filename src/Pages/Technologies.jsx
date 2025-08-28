@@ -22,18 +22,23 @@ export default function Technologies() {
                 delay: index * 0.1,
                 ease: "easeOut"
             }}
-            animate={{
-                y: [0, -10, 0],
-                transition: {
-                    duration: 2 + index * 0.2,
-                    repeat: Infinity,
-                    ease: "easeInOut",
-                    delay: index * 0.3
-                }
-            }}
         >
-            <TecCard icon={icon}/>
+            <motion.div
+                animate={{
+                y: [-5, 5, -5],
+                //rotateZ: [0, 3, -3, 0],
+                }}
+                transition={{
+                duration: 3 + index * 0.2,
+                repeat: Infinity,
+                ease: "easeInOut",
+                delay: index * 0.3,
+                }}
+            >
+                <TecCard icon={icon}/>
+            </motion.div>
         </motion.div>
+
     ))
 
     return (
