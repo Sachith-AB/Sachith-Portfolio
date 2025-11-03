@@ -11,7 +11,7 @@ const projects = [
         id: 0,
         image: mybawbaw, // You can change to a specific image for this project
         name: 'mybawbaw - Veterinary Appointment System',
-        description: 'As a Frontend Developer at mybawbaw, I implemented the frontend components of a web application that enables veterinarians to register their profiles and hospitals while efficiently managing appointments. Handled web and mobile application development for multiple client projects. Connected .NET backend services with React-based frontend applications to ensure seamless data flow and enhanced user experience.',
+        description: 'As a Full Stack Developer at mybawbaw, I designed and developed both frontend and backend components of a comprehensive web application enabling veterinarians to register their profiles, manage hospitals, and efficiently handle appointments. Built RESTful APIs using .NET backend services and implemented responsive React-based frontend applications ensuring seamless data flow, enhanced user experience, and cross-platform compatibility for web and mobile users.',
         techStack: ['React', 'JavaScript', '.Net', 'PostgreSQL', 'Firebase'],
         githubLink: null,
         demoLink: null,

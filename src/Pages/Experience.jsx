@@ -63,12 +63,14 @@ export default function Experience() {
                     className="w-full md:w-1/2 mt-8 flex flex-col gap-2 items-start justify-start md:justify-center"
                     variants={rightVariants}
                 >
-                    <h1 className="text-xl font-semibold text-white items-start">Frontend Developer</h1>
+                    <h1 className="text-xl font-semibold text-white items-start">Full Stack Developer</h1>
                     <h1 className="text-xl text-gray-400">
-                        I worked as a Frontend Developer in an organization focused on community-driven projects 
-                        and open-source research, where I developed and integrated the frontend of a web application 
-                        that allows veterinarians to register their profiles and hospitals, as well as manage their 
-                        appointments efficiently.
+                        I worked as a Full Stack Developer in an organization focused on community-driven projects 
+                        and open-source research, where I designed and developed both frontend and backend components 
+                        of a comprehensive web application enabling veterinarians to register their profiles, manage 
+                        hospitals, and efficiently handle appointments. Built scalable REST APIs with .NET backend services 
+                        and created responsive React-based frontend applications ensuring seamless data flow and enhanced 
+                        user experience across web and mobile platforms.
                     </h1>
                     <div className='flex gap-3 mt-5'>
                         {techContainer}
