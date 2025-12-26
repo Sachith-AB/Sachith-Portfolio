@@ -1,6 +1,6 @@
 import user from '../../assets/my.jpg'
 import { motion } from 'framer-motion'
-import Sachith_Abeywardhana from '../../assets/Sachith_Abeywardhana.pdf'
+import Sachith_Abeywardhana from '../../assets/Sachith_Abeywardhana_CV.pdf'
 
 export default function Home() {
     return (
